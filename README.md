@@ -137,7 +137,7 @@ To get the When2Meet application up and running on your local machine, follow th
 
 ```plaintext
 git clone https://github.com/kambojananya/time-sync.git
-cd when2meet
+cd time-sync
 ```
 
 
