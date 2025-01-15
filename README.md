@@ -61,28 +61,29 @@ graph TD
     B -->|API Routes| D[SQLite Database]
     
     subgraph "Frontend Components"
-    C --> E[Calendar]
-    C --> F[TeamMemberList]
-    C --> G[TimezoneSelector]
-    C --> H[MeetingScheduler]
-    C --> I[EventForm]
-    C --> J[Notes]
+        C --> E[Calendar]
+        C --> F[TeamMemberList]
+        C --> G[TimezoneSelector]
+        C --> H[MeetingScheduler]
+        C --> I[EventForm]
+        C --> J[Notes]
     end
     
     subgraph "API Routes"
-    D --> K[/api/members]
-    D --> L[/api/events]
+        K[/api/members] --> D
+        L[/api/events] --> D
     end
     
     M[Public View] --> C
-    
+
     classDef component fill:#f9f,stroke:#333,stroke-width:2px;
     classDef database fill:#beb,stroke:#333,stroke-width:2px;
     classDef api fill:#bbf,stroke:#333,stroke-width:2px;
-    
+
     class E,F,G,H,I,J,M component;
     class D database;
     class K,L api;
+
 ```
 
 This diagram shows:
