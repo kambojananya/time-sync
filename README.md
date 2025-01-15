@@ -50,6 +50,39 @@ TimeSync is a comprehensive team scheduling application designed to simplify the
 
 ## Project Structure
 
+```
+time-sync/
+├── app/
+│   ├── api/
+│   │   ├── events/
+│   │   │   └── route.ts
+│   │   └── members/
+│   │       └── route.ts
+│   ├── public/
+│   │   └── [id]/
+│   │       └── page.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── AddMemberForm.tsx
+│   ├── Calendar.tsx
+│   ├── EventForm.tsx
+│   ├── MeetingScheduler.tsx
+│   ├── Notes.tsx
+│   ├── TeamMemberList.tsx
+│   └── TimezoneSelector.tsx
+├── public/
+│   └── ...
+├── styles/
+│   └── globals.css
+├── .gitignore
+├── next.config.js
+├── package.json
+├── README.md
+├── tsconfig.json
+└── when2meet.db
+```
+
 ## Project Architecture
 
 The following diagram illustrates the high-level architecture and component structure of the TimeSync application:
