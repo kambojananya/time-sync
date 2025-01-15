@@ -54,7 +54,7 @@ TimeSync is a comprehensive team scheduling application designed to simplify the
 
 The following diagram illustrates the high-level architecture and component structure of the TimeSync application:
 
-\`\`\`mermaid title="TimeSync Project Architecture" type="diagram"
+```mermaid
 graph TD
     A[Browser] -->|HTTP Requests| B[Next.js Server]
     B -->|Server-Side Rendering| C[React Components]
@@ -83,7 +83,7 @@ graph TD
     class E,F,G,H,I,J,M component;
     class D database;
     class K,L api;
-\`\`\`
+```
 
 This diagram shows:
 - The main components of the application
