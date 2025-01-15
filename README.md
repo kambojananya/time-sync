@@ -136,7 +136,7 @@ To get the When2Meet application up and running on your local machine, follow th
 1. **Clone the repository:**
 
 ```plaintext
-git clone https://github.com/yourusername/when2meet.git
+git clone https://github.com/kambojananya/time-sync.git
 cd when2meet
 ```
 
@@ -167,53 +167,53 @@ Here's a guide on how to use the main features of the When2Meet application:
 
 1. **Team Member Management:**
 
-1. Click the "Add Team Member" button in the TeamMemberList component.
-2. Fill in the member's name, select their timezone, and set their availability in the form.
-3. Click "Add Member" to save the new team member.
+  1. Click the "Add Team Member" button in the TeamMemberList component.
+  2. Fill in the member's name, select their timezone, and set their availability in the form.
+  3. Click "Add Member" to save the new team member.
 
 
 
 2. **Calendar View:**
 
-1. The main Calendar component displays team member availability.
-2. Use the "Week View" and "2 Weeks View" buttons to toggle between different calendar views.
-3. Navigate between weeks using the arrow buttons next to the date range.
+  1. The main Calendar component displays team member availability.
+  2. Use the "Week View" and "2 Weeks View" buttons to toggle between different calendar views.
+  3. Navigate between weeks using the arrow buttons next to the date range.
 
 
 
 3. **Timezone Selection:**
 
-1. Use the TimezoneSelector component to set your preferred timezone.
-2. This ensures that you see schedules accurately across different regions.
+  1. Use the TimezoneSelector component to set your preferred timezone.
+  2. This ensures that you see schedules accurately across different regions.
 
 
 
 4. **Meeting Scheduler:**
 
-1. Use the MeetingScheduler component to set up new meetings.
-2. Enter the meeting title, date, and time.
-3. Click "Schedule Meeting" to create the meeting (Note: Zoom integration is a placeholder).
+  1. Use the MeetingScheduler component to set up new meetings.
+  2. Enter the meeting title, date, and time.
+  3. Click "Schedule Meeting" to create the meeting (Note: Zoom integration is a placeholder).
 
 
 
 5. **Event Creation:**
 
-1. Use the EventForm component to add new events to the calendar.
-2. Specify the event title, day, start time, end time, and duration.
-3. Click "Add Event" to create the new event.
+  1. Use the EventForm component to add new events to the calendar.
+  2. Specify the event title, day, start time, end time, and duration.
+  3. Click "Add Event" to create the new event.
 
 
 
 6. **Team Notes:**
 
-1. Use the Notes component to add and save team notes.
-2. Enter your notes in the text area and click "Save Notes" to store them.
+  1. Use the Notes component to add and save team notes.
+  2. Enter your notes in the text area and click "Save Notes" to store them.
 
 
 
 7. **Public View:**
 
-1. Click the "View Public Schedule" link to access a shareable public view of the team's schedule.
+  1. Click the "View Public Schedule" link to access a shareable public view of the team's schedule.
 
 
 
