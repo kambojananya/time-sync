@@ -70,8 +70,10 @@ graph TD
     end
     
     subgraph "API Routes"
-        K[/api/members] --> D
-        L[/api/events] --> D
+        K["/api/members"]
+        K --> D
+        L["/api/events"]
+        L --> D
     end
     
     M[Public View] --> C
@@ -83,6 +85,7 @@ graph TD
     class E,F,G,H,I,J,M component;
     class D database;
     class K,L api;
+
 
 ```
 
